@@ -7,7 +7,7 @@ public class WriteNameInFIle {
     public static void main(String[] args) {
         String name, removeName;
         String age;
-        name = "Sam";
+        name = "Piotr";
         age = "30";
         File file = new File("someFile.txt");
         try {
@@ -15,7 +15,7 @@ public class WriteNameInFIle {
         } catch (Exception e) {
             System.out.println("An error has occured");
         }
-        removeName ="Paul";
+        removeName ="Marcin";
         try {
             Delete.deleteNames(file, removeName);
         } catch (Exception e) {
